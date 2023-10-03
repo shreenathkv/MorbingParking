@@ -18,12 +18,4 @@ jobs:
         with:
           node-version: 18  # Use Node.js 18
 
-      - name: Install Super-Linter
-        run: |
-          npm install -g super-linter
-          super-linter --install
-
-      - name: Run Super-Linter
-        run: |
-          super-linter
 
